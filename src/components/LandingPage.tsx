@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from './HeroImage'
 import ProductCard from './Product';
+import ViewMoreButton from './ui/ViewMoreButton';
 
 const LandingPage: React.FC = () =>  {
   return (
@@ -33,6 +34,9 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
+     <div className="flex justify-center mt-8">
+      <ViewMoreButton />
+    </div>
     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Women's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
@@ -56,6 +60,9 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
+     <div className="flex justify-center mt-8">
+      <ViewMoreButton />
+    </div>
      <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Kid's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
@@ -79,6 +86,9 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
+     <div className="flex justify-center mt-8 px-4">
+      <ViewMoreButton />
+    </div>
      <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Unisex's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
@@ -102,6 +112,9 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
+     <div className="flex justify-center mt-8">
+      <ViewMoreButton />
+    </div>
      </div>
   )
 }
