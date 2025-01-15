@@ -5,12 +5,12 @@ import ProductCard from './Product';
 const LandingPage: React.FC = () =>  {
   return (
     <div className='sora-LandingPage'>
-    <div className="flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600  border-primary-600 py-3">
+    <div className="flex justify-center items-center text-3xl tracking-wide text-primary-600  border-primary-600 py-3">
       Hey! You are Here!</div>   
     <HeroImage/>
-    <div className="flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600 border-b-4 border-primary-600 py-3">
+    <div className="flex justify-center items-center text-3xl tracking-wide text-primary-600 border-b-4 border-primary-600 py-3">
      Shop Our Latest Collection!!</div>   
-     <div className='flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600 border-primary-600 py-6'><h1>Men's Collection</h1></div>
+     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Men's Collection</div>
      <div className='flex justify-center items-center gap-10'>
      <ProductCard 
     imageUrl="https://maskonline.co.in/cdn/shop/files/FINAL.jpg?v=1725714053" 
@@ -33,7 +33,7 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
-    <div className='flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600 border-primary-600 py-6'>Women's Collection</div>
+    <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Women's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
     imageUrl="https://levi.in/cdn/shop/files/A39230002_01_Front_36aa9385-0714-44f8-a33e-f30904da673f.jpg?v=1712742695" 
@@ -56,7 +56,7 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
-     <div className='flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600 border-primary-600 py-6'>Kid's Collection</div>
+     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Kid's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
     imageUrl="https://homafy.com/wp-content/uploads/2024/05/kids-printed-nightsuit-2.webp" 
@@ -79,7 +79,7 @@ const LandingPage: React.FC = () =>  {
     price="$259.99" 
       />
      </div>
-     <div className='flex justify-center items-center text-3xl font-extrabold tracking-wide text-primary-600 border-primary-600 py-6'>Unisex's Collection</div>
+     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Unisex's Collection</div>
     <div className='flex justify-center items-center gap-10'>
      <ProductCard 
     imageUrl="https://images.bestsellerclothing.in/data/only/2-aug-2023/283106401_g0.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto" 
