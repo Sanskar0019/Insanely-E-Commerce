@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 left-0 w-full z-50 bg-gradient-to-l from-primary-400 via-primary-200 to-primary-300 text-gray-800 py-3 px-6 shadow-md sora-header rounded-b-3xl">
+    <header className="sticky top-0 left-0 w-full  z-50 bg-gradient-to-l from-primary-400 via-primary-200 to-primary-300 text-gray-800 py-3 px-6 shadow-md sora-header rounded-b-3xl">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <img className="w-60 h-20" src="Insanely-removebg-preview.png" alt="Logo" />
