@@ -1,7 +1,9 @@
+//@ts-ignore
 import React from 'react'
 import HeroImage from './HeroImage'
 import ProductCard from './Product';
 import ViewMoreButton from './ui/ViewMoreButton';
+import CategoryCard from './ui/CategoryCard';
 
 const LandingPage: React.FC = () =>  {
   return (
@@ -114,6 +116,25 @@ const LandingPage: React.FC = () =>  {
      </div>
      <div className="flex justify-center mt-8">
       <ViewMoreButton />
+    </div>
+    <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>-: Shop By Category :-</div>
+    <div className="flex flex-wrap gap-20 justify-center">
+      <CategoryCard
+        imageUrl="https://static.thenounproject.com/png/1196397-200.png"
+        title="Top Wear"
+      />
+      <CategoryCard
+        imageUrl="https://static.thenounproject.com/png/1964502-200.png"
+        title="Bottom Wear"
+      />
+      <CategoryCard
+        imageUrl="https://static.thenounproject.com/png/1446232-200.png"
+        title="Winter Wear"
+      />
+       <CategoryCard
+        imageUrl="https://cdn3.iconfinder.com/data/icons/weather-with-disaster-outline/64/weather_season_summer_clothes-512.png   "
+        title="Summer Wear"
+      />
     </div>
      </div>
   )

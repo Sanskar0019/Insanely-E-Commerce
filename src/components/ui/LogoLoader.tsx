@@ -7,10 +7,10 @@ const LogoLoader = () => {
           src="Insanely-removebg-preview.png"  // Replace with your logo path
           alt="Logo"
           className="w-full h-32 animate-pulse"  // Adjust size as needed
-        />
+          ></img>
       </div>
     </div>
   );
-};
+};      
 
 export default LogoLoader;
