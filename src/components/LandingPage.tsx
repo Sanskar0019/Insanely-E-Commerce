@@ -37,7 +37,7 @@ const LandingPage: React.FC = () =>  {
       />
      </div>
      <div className="flex justify-center mt-8">
-      <ViewMoreButton />
+      <ViewMoreButton category='Men'/>
     </div>
     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Women's Collection</div>
     <div className='flex justify-center items-center gap-10'>
@@ -63,7 +63,7 @@ const LandingPage: React.FC = () =>  {
       />
      </div>
      <div className="flex justify-center mt-8">
-      <ViewMoreButton />
+      <ViewMoreButton category='Women' />
     </div>
      <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Kid's Collection</div>
     <div className='flex justify-center items-center gap-10'>
@@ -89,7 +89,7 @@ const LandingPage: React.FC = () =>  {
       />
      </div>
      <div className="flex justify-center mt-8 px-4">
-      <ViewMoreButton />
+      <ViewMoreButton category='Kids' />
     </div>
      <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>Unisex's Collection</div>
     <div className='flex justify-center items-center gap-10'>
@@ -115,24 +115,24 @@ const LandingPage: React.FC = () =>  {
       />
      </div>
      <div className="flex justify-center mt-8">
-      <ViewMoreButton />
+      <ViewMoreButton category='Unisex'/>
     </div>
     <div className='flex justify-center items-center text-3xl tracking-wide text-primary-600 border-primary-600 py-6'>-: Shop By Category :-</div>
     <div className="flex flex-wrap gap-20 justify-center">
       <CategoryCard
-        imageUrl="https://static.thenounproject.com/png/1196397-200.png"
+        imageUrl="https://victorsport.in/media/catalog/product/cache/a2de927ff594ee94445d02f185f2df29/u/n/unnamed_3_.jpg"
         title="Top Wear"
       />
       <CategoryCard
-        imageUrl="https://static.thenounproject.com/png/1964502-200.png"
+        imageUrl="https://jcpenney.scene7.com/is/image/JCPenney/DP0831202313011482M"
         title="Bottom Wear"
       />
       <CategoryCard
-        imageUrl="https://static.thenounproject.com/png/1446232-200.png"
+        imageUrl="https://i.pinimg.com/474x/36/91/e7/3691e7f149da61b77fab208b9a6dd7af.jpg"
         title="Winter Wear"
       />
        <CategoryCard
-        imageUrl="https://cdn3.iconfinder.com/data/icons/weather-with-disaster-outline/64/weather_season_summer_clothes-512.png   "
+        imageUrl="https://s3.amazonaws.com/chlorp-dev/public/spree/products/30599/small/18140_fremint.webp?1707754676"
         title="Summer Wear"
       />
     </div>

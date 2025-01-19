@@ -2,7 +2,7 @@
 const CategoryCard = ({ imageUrl, title }) => {
   return (
     <div
-      className="w-64 border rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg border-4 border-primary-600"
+      className="w-64 border rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform transform hover:scale-105 hover:shadow-lg border-6 border-primary-600"
     >
       <img
         src={imageUrl}

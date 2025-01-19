@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           <ul className="space-y-2 text-sm">
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-primary-500 transition-colors duration-300"
               >
                 Home
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/aboutus"
                 className="hover:text-primary-500 transition-colors duration-300"
               >
                 About Us
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/shop"
                 className="hover:text-primary-500 transition-colors duration-300"
               >
                 Shop
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/contactus"
                 className="hover:text-primary-500 transition-colors duration-300"
               >
                 Contact
